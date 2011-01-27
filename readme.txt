@@ -1,4 +1,4 @@
-=== WP Auto Tagger ===
+=== StockTwits Auto Tagger ===
 Contributors: christopherross
 Donate link:  http://thisismyurl.com/stocktwits-auto-tagger/
 Tags: auto, suggest, tags, post, tagging, keywords, stocktwits
