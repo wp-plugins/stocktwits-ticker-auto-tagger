@@ -1,12 +1,26 @@
 <?php
 /*
 Plugin Name: StockTwits Auto Tagger
-Plugin URI: http://thisismyurl.com/stocktwits-auto-tagger/
+Plugin URI: http://thisismyurl.com/plugins/stocktwits-auto-tagger/
 Description: Automatically find stock symboltags based on content of the blog post.
 Version: 1.0.0
 Author: christopherross
-Author URI: http://stocktwits.com
+Author URI: http://thisismyurl.com/
 */
+
+/**
+ * StockTwits Auto Tagger core file
+ *
+ * This file contains all the logic required for the plugin
+ *
+ * @link		http://wordpress.org/extend/plugins/stocktwits-auto-tagger/
+ *
+ * @package 		StockTwits Auto Tagger
+ * @copyright		Copyright (c) 2008, Chrsitopher Ross
+ * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License, v2 (or newer)
+ *
+ * @since 		StockTwits Auto Tagger 1.0
+ */
 
 add_action('wp_insert_post', 'stocktwits_auto_stocktwits_gettags', 10, 2);
 function stocktwits_auto_stocktwits_gettags($post_id, $post) {
