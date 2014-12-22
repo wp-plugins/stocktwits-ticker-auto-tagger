@@ -1,9 +1,9 @@
 === StockTwits Auto Tagger ===
-Contributors: christopherross
+Contributors: christopherross,thisismyurl
 Donate link:  http://thisismyurl.com/stocktwits-auto-tagger/
 Tags: auto, suggest, tags, post, tagging, keywords, stocktwits
-Requires at least: 2.5
-Tested up to: 3.5.1
+Requires at least: 3.2.0
+Tested up to: 4.1.0
 Stable tag: 1.0.0
 
 An auto tagger plugin designed to automatically include valid stock ticker symbols as tags, along with their official name.
@@ -30,7 +30,7 @@ When you make a post in WordPress, simply indicate that you're posting a stock t
 
 = Can I automatically link the tag? =
 
-We have another plugin called the StockTwits Ticker Link (http://wordpress.org/extend/plugins/stocktwits-ticker-links/) that will automatically link your $tickers to social media streams for the ticker.
+We have another plugin called the StockTwits Ticker Link (http://wordpress.org/extend/downloads/stocktwits-ticker-links/) that will automatically link your $tickers to social media streams for the ticker.
 
 == Screenshots ==
 
